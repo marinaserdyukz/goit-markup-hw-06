@@ -3,6 +3,24 @@
     max-width: 736px;
   }
 
+  .top {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+
+  .top-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    max-width: 496px;
+  }
+
   .features-list {
     row-gap: 72px;
     column-gap: 24px;
@@ -10,6 +28,11 @@
 
   .features-list-item {
     width: calc((100% - 24px * 1) / 2);
+  }
+
+  .team-img-inf {
+    padding-left: 92px;
+    padding-right: 92px;
   }
 
   .team-list {
@@ -28,11 +51,66 @@
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .conclusion-container {
+    padding-left: 108px;
+  }
+
+  .conclusion-logo-title {
+    text-align: left;
+  }
+
+  .footer-logo-social {
+    display: flex;
+  }
+
+  .social-media-text {
+    text-align: left;
+  }
+
+  .conclusion-social-media {
+    margin-left: 24px;
+  }
+
+  .social-media-list {
+    margin-bottom: 0px;
+  }
+
+  .conclusion-form {
+    gap: 24px;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .subscribe-text {
+    text-align: left;
+  }
+
+  .conclusion-button {
+    margin-left: 0;
+  }
+
+  .conclusion-input {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1128px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .top {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
   }
 
   .features {
@@ -81,6 +159,12 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+
+  .team-img-inf {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .team-list {
     flex-wrap: nowrap;
     gap: 24px;
@@ -99,5 +183,28 @@
 
   .portfolio-list-item {
     width: calc((100% - 48px) / 3);
+  }
+
+  .conclusion {
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+  }
+
+  .first-block {
+    margin-right: 120px;
+  }
+
+  .conclusion-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .conclusion-text {
+    margin-bottom: 0;
+  }
+
+  .conclusion-social-media {
+    margin-right: 80px;
+    margin-left: 0;
   }
 }
