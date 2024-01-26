@@ -1,6 +1,42 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  .summit-logo-blue {
+    margin-right: 120px;
+    padding: 25.5px 0;
+  }
+
+  .summit-menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .contacts-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 0;
+    /*align-items: center;*/
+  }
+
+  .contacts-menu-link {
+    font-size: 12px;
+    color: #434455;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    padding: 0;
+  }
+
+  .summit-menu-button {
+    display: none;
   }
 
   .top {
@@ -113,6 +149,46 @@
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .summit-logo-blue {
+    margin-right: 76px;
+  }
+
+  .summit-menu-link:active::after {
+    content: " ";
+    width: 100%;
+    border-radius: 2px;
+    background: #404bbf;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-100%);
+  }
+
+  .current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    height: 4px;
+    width: 100%;
+  }
+
+  .contacts-menu {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px 0;
+  }
+
+  .contacts-menu-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 0;
   }
 
   .top {
