@@ -108,12 +108,12 @@
     padding-left: 108px;
   }
 
-  .conclusion-logo-title {
-    text-align: left;
-  }
-
   .footer-logo-social {
     display: flex;
+  }
+
+  .conclusion-logo-blue {
+    justify-content: left;
   }
 
   .social-media-text {
@@ -155,6 +155,10 @@
 
   .modal-input-text {
     width: 360px;
+  }
+
+  .modal-text-checkbox {
+    flex-direction: row;
   }
 }
 
@@ -206,13 +210,14 @@
   }
 
   .top {
-    padding-top: 118px;
-    padding-bottom: 118px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-desktop.jpg);
+    max-width: 1440px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
