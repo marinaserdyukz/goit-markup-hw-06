@@ -12,6 +12,10 @@
     padding: 25.5px 0;
   }
 
+  .summit-logo {
+    padding: 25.5px 0;
+  }
+
   .summit-menu-list {
     display: flex;
     gap: 40px;
@@ -141,6 +145,16 @@
 
   .conclusion-input {
     margin-bottom: 0px;
+  }
+
+  .modal {
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+  }
+
+  .modal-input-text {
+    width: 360px;
   }
 }
 
@@ -306,5 +320,22 @@
   .conclusion-social-media {
     margin-right: 80px;
     margin-left: 0;
+  }
+
+  .modal-input:hover,
+  .modal-input:focus {
+    border-color: #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
+  }
+
+  .modal-input:focus + .modal-icon {
+    fill: #4d5ae5;
+  }
+
+  .modal-input-text:hover,
+  .modal-input-text:focus {
+    border-color: #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
