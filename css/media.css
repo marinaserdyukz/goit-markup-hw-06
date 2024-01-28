@@ -3,6 +3,14 @@
     max-width: 768px;
   }
 
+  .header-container {
+    gap: 0px;
+  }
+
+  .summit-navigation {
+    margin-right: auto;
+  }
+
   .mob-menu {
     display: none;
   }
@@ -106,11 +114,16 @@
 
   .conclusion-container {
     padding-left: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
   }
 
-  .footer-logo-social {
+  /*.footer-logo-social {
     display: flex;
-  }
+    gap: 24px;
+  }*/
 
   .conclusion-logo-blue {
     justify-content: left;
@@ -121,7 +134,7 @@
   }
 
   .conclusion-social-media {
-    margin-left: 24px;
+    /*margin-left: 24px;*/
   }
 
   .social-media-list {
