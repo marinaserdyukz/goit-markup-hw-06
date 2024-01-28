@@ -35,7 +35,6 @@
     flex-direction: column;
     gap: 12px;
     padding: 16px 0;
-    /*align-items: center;*/
   }
 
   .contacts-menu-link {
@@ -95,6 +94,10 @@
     padding-right: 92px;
   }
 
+  .features_mini-title {
+    text-align: left;
+  }
+
   .team-list {
     row-gap: 64px;
     column-gap: 24px;
@@ -114,16 +117,13 @@
 
   .conclusion-container {
     padding-left: 108px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-}
   }
 
-  /*.footer-logo-social {
+  .footer-logo-social {
     display: flex;
+    flex-direction: row;
     gap: 24px;
-  }*/
+  }
 
   .conclusion-logo-blue {
     justify-content: left;
@@ -134,7 +134,11 @@
   }
 
   .conclusion-social-media {
-    /*margin-left: 24px;*/
+  }
+
+  .conclusion-subscribe {
+    row-gap: 16px;
+    column-gap: 24px;
   }
 
   .social-media-list {
@@ -142,10 +146,9 @@
   }
 
   .conclusion-form {
+    display: flex;
     gap: 24px;
-    flex-wrap: nowrap;
-    padding-left: 0px;
-    padding-right: 0px;
+    justify-content: center;
   }
 
   .subscribe-text {
@@ -157,7 +160,9 @@
   }
 
   .conclusion-input {
-    margin-bottom: 0px;
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 264px;
   }
 
   .modal {
@@ -323,12 +328,17 @@
   }
 
   .first-block {
-    margin-right: 120px;
+  }
+
+  .footer-logo-social {
+    gap: 120px;
   }
 
   .conclusion-container {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
+    gap: 80px;
   }
 
   .conclusion-text {
@@ -336,8 +346,13 @@
   }
 
   .conclusion-social-media {
-    margin-right: 80px;
-    margin-left: 0;
+  }
+
+  .conclusion-input {
+    max-width: 264px;
+  }
+
+  .conclusion-subscribe {
   }
 
   .modal-input:hover,
