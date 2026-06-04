@@ -21,7 +21,7 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg-320.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,7 +76,7 @@ transition: background-color 250ms ease;
         rgba(46, 47, 66, 0.7) 0%,
         rgba(46, 47, 66, 0.7) 100%
       ),
-      url(../images/hero-bg-320@2x.jpg);
+      url(../images/hero-bg-320-2x.jpg);
     background-position:
       top right,
       center;
@@ -126,7 +126,7 @@ transition: background-color 250ms ease;
         rgba(46, 47, 66, 0.7) 0%,
         rgba(46, 47, 66, 0.7) 100%
       ),
-      url(../images/hero-bg-768@2x.jpg);
+      url(../images/hero-bg-768-2x.jpg);
     background-position:
       top right,
       center;
@@ -171,7 +171,7 @@ transition: background-color 250ms ease;
         rgba(46, 47, 66, 0.7) 0%,
         rgba(46, 47, 66, 0.7) 100%
       ),
-      url('../images/hero-bg-1440@2x.jpg');
+      url('../images/hero-bg-1440-2x.jpg');
     background-position:
       top right,
       center;

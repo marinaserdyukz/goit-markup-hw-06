@@ -2,7 +2,7 @@
     display: flex;
 align-items: center;
 flex-direction: column;
-gap: 72px;
+/*gap: 72px;*/
 }
 
 .team {
@@ -10,23 +10,31 @@ gap: 72px;
 }
 
 .team-title {
+    margin-bottom: 72px;
+  text-align: center;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
-text-align: center;
 }
 
 .team-list {
-    display: flex;
-    gap: 24px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 72px;
 
 }   
 
 .team-item {
     background-color: white;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 
@@ -48,6 +56,7 @@ text-align: center;
 .team-member {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 padding: 32px 16px;
 gap: 8px;
@@ -91,5 +100,27 @@ color: #434455;
 .team-social-link:hover,
 .team-social-link:focus {
     background-color: #404BBF;
+}
+
+@media (min-width: 768px) {
+  .team .container {
+    padding: 0 15px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .team-list {
+    flex-wrap: nowrap;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
 }
 

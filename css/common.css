@@ -41,9 +41,7 @@ a {
   margin: -1px;
 }
 
-.section {
-    padding: 120px 0;
-}
+
 
 .container {
   max-width: 320px;
@@ -53,10 +51,19 @@ a {
   margin-right: auto;
 }
 
+.section {
+    padding: 96px 0;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+
+  /*
+.section {
+}
+*/
 }
 
 @media screen and (min-width: 1158px) {
@@ -64,7 +71,12 @@ a {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    
   }
+  .section {
+    padding: 120px 0;
+}
+
 }
 
 
