@@ -1,7 +1,5 @@
-/* mobile first */
 
-@media (min-width: 320px) and (max-width: 767px) {
-  .mobile-menu {
+.mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -30,13 +28,13 @@ width: 100%;
 
 }
 
-/*
+
 .mobile-menu.is-open {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
 }
-*/
+
 
 .mobile-menu-btn-list {
   display: flex;
@@ -147,7 +145,7 @@ gap: 40px;
 }
 
 
-}
+
 
 @media (min-width: 768px) {
 .mobile-menu {
