@@ -1,31 +1,10 @@
 .header-container {
     display: flex;
-  
-    align-items: center;
     flex-direction: row;   
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-}
-
-.header-list {
-    display: flex;
-    gap: 40px;
-}
-
-
-
-.header-wrapper {
-    display: flex;
-align-items: center;
-gap: 76px;
-flex-direction: row;
-}
-
-.header a {
-    padding: 24px 0;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-link {
@@ -40,13 +19,26 @@ flex-direction: row;
     color: #4D5AE5;
 }
 
+.header-list {
+    /* display: flex;
+    gap: 40px;*/
+    display: none;
+}
+
+.header-wrapper {
+    display: flex;
+align-items: center;
+gap: 76px;
+flex-direction: row;
+}
+
 .header-list a {
-    font-weight: 500;
+    /*
     transition: color 250ms ease;
     position: relative;
-    display: block;
+    display: block;*/
+    font-weight: 500;
     padding: 24px 0;
-
     transition: color 250ms ease;
 }
 
@@ -73,10 +65,11 @@ flex-direction: row;
 
 
 .header-contacts-list {
-    display: flex;
+   /* display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 40px; */
+    display: none;
    
 
 }
@@ -94,4 +87,81 @@ flex-direction: row;
 .header-contacts-list a:hover,
 .header-contacts-list a:focus {
     color: #404bbf;
+}
+
+.mobile-menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 4px;
+  background: transparent;
+  border: 0;
+  width: 24px;
+  height: 24px;
+}
+
+
+@media (min-width: 768px) {
+  .header .container {
+    padding: 0 16px;
+    max-width: 768px;
+    justify-content: flex-start;
+  }
+
+  .header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 120px;
+  }
+
+  .header-contacts-list {
+   display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.header-contacts {
+        margin-left: auto;
+}
+
+.header-contacts-list a {
+    font-style: normal;
+    color: #434455;
+     transition: color 250ms ease;
+}
+
+.header-contacts-list a:hover,
+.header-contacts-list a:focus {
+    color: #404bbf;
+}
+
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+@media (min-width: 1158px) {
+  .header .container {
+    max-width: 1158px;
+    padding: 0 15px;
+    gap: 76px;
+  }
+
+  .header-contacts-list {
+ flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; 
+  }
+
+  .header-list {
+    margin-left: 0;
+  }
+
+  .header-contacts-list a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }

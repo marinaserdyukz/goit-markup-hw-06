@@ -2,26 +2,29 @@
 
 .features-list {
     display: flex;
-    gap: 24px;
+    row-gap: 72px;
+    flex-direction: column;
 }
 
 .features-item {
-width: calc((100% -72px)/4);
+width: 100%;
     display: flex;
-    gap: 8px 0px;
+    gap: 8px;
     flex-direction: column;
 }
 
 .features-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
 }
 
 .features-item-description {
     font-size: 16px;
     color: #434455;
 }
+
+
  
 .features-icon {
     width: 64px;
