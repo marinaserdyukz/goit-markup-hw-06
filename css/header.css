@@ -1,6 +1,8 @@
 .header-container {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .header {
@@ -8,6 +10,8 @@
 }
 
 .header-link {
+  padding-top: 16px;
+  padding-bottom: 16px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.3;
@@ -95,7 +99,7 @@ flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 4px;
+  padding: 24px 4px;
   background: transparent;
   border: 0;
   width: 24px;
@@ -124,7 +128,7 @@ flex-direction: row;
   .header-contacts-list {
    display: flex;
     flex-direction: column;
-    row-gap: 2px;
+    row-gap: 12px;
 }
 
 .header-contacts {
@@ -137,6 +141,10 @@ flex-direction: row;
     color: #434455;
      transition: color 250ms ease;
      display: block;
+     font-size: 12px;
+     font-weight: 400;
+     letter-spacing: 0.04em;
+     line-height: 1.17;
 }
 
 .header-contacts-list a:hover,
@@ -157,7 +165,7 @@ flex-direction: row;
   }
 
 .header-wrapper {
-  gap: 96px;
+  gap: 76px;
 }
 
   .header-contacts-list {
@@ -206,6 +214,7 @@ flex-direction: row;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    display: block; 
 }
 
 

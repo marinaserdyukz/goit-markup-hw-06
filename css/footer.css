@@ -41,6 +41,7 @@ align-items: center;
 
 .footer-text {
     color: #F4F4FD;
+    align-self: left;
 }
 
 .footer-contacts {
@@ -116,7 +117,7 @@ align-self: center;
     border-radius: 4px;
     height: 40px;
      width: 100%;
-    width: 264px;
+     width: 288px;
 padding: 8px 16px;
     color: #ffffff;
     font-weight: 400;

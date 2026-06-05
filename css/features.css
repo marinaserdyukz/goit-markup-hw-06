@@ -26,6 +26,7 @@ width: 100%;
 .features-item-description {
     font-size: 16px;
     color: #434455;
+    font-weight: 500;
 }
 
 
@@ -72,8 +73,6 @@ text-align: start;
   }
 
   .features-item-description {
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
   }
 }
