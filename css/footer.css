@@ -3,7 +3,6 @@
   row-gap: 72px;
   flex-direction: column;
   align-items: center;
-  padding: 0 16px;
 
 }
 
@@ -41,7 +40,7 @@ align-items: center;
 
 .footer-text {
     color: #F4F4FD;
-    align-self: left;
+    text-align: left;
 }
 
 .footer-contacts {
@@ -111,13 +110,16 @@ align-self: center;
 
 }
 
+.subscription-form {
+    width: 100%;
+}
+
 .subscription-input {
     background-color: inherit;
     border: 1px solid #ffffff;
     border-radius: 4px;
     height: 40px;
      width: 100%;
-     width: 288px;
 padding: 8px 16px;
     color: #ffffff;
     font-weight: 400;
@@ -196,6 +198,7 @@ gap: 16px;
 
   .footer-info {
     margin-left: 0;
+    text-align: left;
   }
 
 .footer-social {
